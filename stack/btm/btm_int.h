@@ -275,7 +275,7 @@ typedef struct
 {
     tBTM_CMPL_CB *p_remname_cmpl_cb;
 
-#define BTM_EXT_RMT_NAME_TIMEOUT    40
+#define BTM_EXT_RMT_NAME_TIMEOUT    30
 
 
     TIMER_LIST_ENT  rmt_name_timer_ent;
